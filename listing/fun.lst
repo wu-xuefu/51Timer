@@ -1,0 +1,36 @@
+C51 COMPILER V9.00   FUN                                                                   11/07/2021 23:03:27 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE FUN
+OBJECT MODULE PLACED IN .\output\fun.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE fun\fun.c BROWSE DEBUG OBJECTEXTEND PRINT(.\listing\fun.lst) OBJECT(.\outpu
+                    -t\fun.obj)
+
+line level    source
+
+   1          /*
+   2           * @Author: 吴学富
+   3           * @Date: 2021-11-07 18:39:08
+   4           * @LastEditors: 吴学富
+   5           * @LastEditTime: 2021-11-07 20:08:53
+   6           * @FilePath: \Timer\fun\fun.c
+   7           */
+   8          #include "fun.h"
+   9          void Delay(uint16 time)
+  10          {
+  11   1          while(time--);
+  12   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     11    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

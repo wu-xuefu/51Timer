@@ -1,0 +1,412 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\FuHua\Desktop\Timer\timer.uvproj
+Project File Date:  11/07/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN\..\FUN\LCD1602\1602.H(13): warning C318: can't open file 'fun.h'
+compiling 1602.c...
+FUN\LCD1602\1602.H(13): warning C318: can't open file 'fun.h'
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN\..\FUN\LCD1602\1602.H(13): warning C318: can't open file 'fun.h'
+compiling 1602.c...
+FUN\LCD1602\1602.H(13): warning C318: can't open file 'fun.h'
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\output\fun.obj (FUN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?FUN
+Program Size: data=28.3 xdata=0 code=1291
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+FUN\LCD1602\1602.C(14): warning C206: 'Delay': missing function-prototype
+FUN\LCD1602\1602.C(14): error C267: 'Delay': requires ANSI-style prototype
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1311
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1244
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1244
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1299
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1311
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN\MAIN.C(98): warning C206: 'init1602': missing function-prototype
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1310
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=30.3 xdata=0 code=1327
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=38.3 xdata=0 code=1335
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=38.3 xdata=0 code=1335
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN\MAIN.C(16): error C279: 'dis_ultimate': multiple initialization
+compiling 1602.c...
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN\MAIN.C(59): warning C206: 'strnlen': missing function-prototype
+MAIN\MAIN.C(59): error C267: 'strnlen': requires ANSI-style prototype
+MAIN\MAIN.C(140): error C187: not an lvalue
+MAIN\MAIN.C(223): error C187: not an lvalue
+MAIN\MAIN.C(226): error C187: not an lvalue
+MAIN\MAIN.C(230): error C187: not an lvalue
+compiling 1602.c...
+compiling fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+Program Size: data=73.3 xdata=0 code=1433
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=91.3 xdata=0 code=1498
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 11 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=91.3 xdata=0 code=1522
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 11 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=91.3 xdata=0 code=1534
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 11 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling 1602.c...
+compiling fun.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKBUSY?1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WRITE1602_ONE_DAT?1602
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I0?MAIN
+    CALLER2: ?PR?BUTTON_I1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?BUTTON_I1?MAIN
+    CALLER2: ?PR?TIME_T0?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_COM?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_STR?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_WRITE1602_DAT?1602
+    CALLER1: ?PR?TIME_T0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=91.3 xdata=0 code=1525
+creating hex file from ".\output\timer"...
+".\output\timer" - 0 Error(s), 11 Warning(s).
